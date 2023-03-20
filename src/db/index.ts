@@ -1,4 +1,3 @@
-
 import mongoose from 'mongoose';
 
 const MONGO_URI = 'mongodb+srv://viniciusbuarque:NaJmpJ1Tkge2prXW@secretcristimas.shry3pp.mongodb.net/?retryWrites=true&w=majority';

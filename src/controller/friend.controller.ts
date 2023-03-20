@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import Friend, { IFriend } from '../models/friend.model';
 
-export default class AmigoController {
+export default class FriendController {
   public async index(req: Request, res: Response): Promise<void> {
     try {
       const friends: IFriend[] = await Friend.find();
